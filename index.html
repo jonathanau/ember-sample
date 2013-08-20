@@ -45,7 +45,9 @@
             </span>
             <ul id="filters">
               <li>
-                <a href="all" class="selected">All</a>
+                {{#linkTo 'todos.index' activeClass="selected"}}
+                  All
+                {{/linkTo}}
               </li>
               <li>
                 {{#linkTo 'todos.active' activeClass="selected"}}
