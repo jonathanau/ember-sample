@@ -53,7 +53,9 @@
                 {{/linkTo}}
               </li>
               <li>
-                <a href="completed">Completed</a>
+                {{#linkTo 'todos.completed' activeClass="selected"}}
+                  Completed
+                {{/linkTo}}
               </li>
             </ul>
 
